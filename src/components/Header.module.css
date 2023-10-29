@@ -1,0 +1,64 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    background: var(--gray-700);
+}
+
+.formsInput {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+
+    margin-top: -1.75rem;
+}
+
+.formsInput input {
+    border-radius: 8px;
+    border: 1px solid var(--gray-700, #0D0D0D);
+    background: var(--gray-500, #262626);
+    padding: 1rem;
+    width: 39.87rem;
+
+    color: var(--Gray-300, #808080);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    outline: 0;
+
+}
+
+.formsInput input:focus-within  {
+    color: var(--gray-100, #F2F2F2);
+    border: 1px solid var(--purple-dark, #5E60CE);
+  }
+
+  .formsInput:focus, .formsInput:focus, .formsInput:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.formsInput button[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 8px;
+    background: var(--blue-Dark, #1E6F9F);
+    padding: 1rem;
+    border: none;
+
+    color: var(--gray-100, #F2F2F2);
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 140%; /* 19.6px */
+
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.formsInput button[type="submit"]:hover {
+    background: var(--blue, #4EA8DE);
+}

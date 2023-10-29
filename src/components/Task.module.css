@@ -1,0 +1,66 @@
+.taskContainer {
+    width: 100%;
+
+    display: flex;
+    padding: 1rem;
+    align-self: stretch;
+
+    border-radius: 8px;
+    border: 1px solid var(--gray-400, #333);
+    background: var(--gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.taskContainer > div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.disabled {
+    text-decoration-line: line-through; 
+    color: var(--gray-300, #808080);
+}
+
+.checkTask {
+    color: var(--blue);
+    background-color: transparent;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.checkTask:hover {
+    color: var(--blue-dark);
+    background-color: #10212a;
+    transition: background-color 0.1s;
+    border: none;
+    border-radius: 999px;
+    padding: 0;
+    outline: none;
+}
+
+.deleteTask {
+    display: flex;
+    padding: 0.3125rem 0.3125rem 0.3125rem 0.3125rem;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #808080;
+    height: 2rem;
+}
+
+.deleteTask:hover {
+    border-radius: 4px;
+    background: var(--gray-400, #333);
+    color: var(--danger);
+    cursor: pointer;
+    outline: none;
+
+    transition: background-color 0.1s;
+}
