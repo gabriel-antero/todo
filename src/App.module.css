@@ -58,6 +58,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     color: var(--gray-300, #808080);
     line-height: 140%; /* 22.4px */
