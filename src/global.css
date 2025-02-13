@@ -27,6 +27,7 @@ body {
   background: var(--gray-600);
   color: var(--gray-100);
   -webkit-font-smoothing: antialiased;
+  padding: 12px;
 }
 
 body, input, textarea, button {
